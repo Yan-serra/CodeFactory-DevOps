@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/5191/5191394.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Easy ToDo List</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Easy ToDo List</h1>
+        <input type="text" id="searchInput" placeholder="Pesquisar pelo Titulo...">
+        <input type="text" id="titleInput" placeholder="Titulo da Tarefa...">
+        <textarea id="descInput" placeholder="Descrição..."></textarea>
+        <select id="priorityInput">
+            <option value="normal">Normal</option>
+            <option value="media">Média</option>
+            <option value="alta">Alta</option>
+        </select>
+        <button onclick="addTask()">Adicionar Tarefa</button>
+        <div id="taskList"></div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
