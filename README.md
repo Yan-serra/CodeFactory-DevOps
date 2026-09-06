@@ -2,7 +2,7 @@
 
  DESCRIÇÃO
 
-Projeto desenvolvido para demonstrar  aplicação de práticas DevOps na empresa fictícia CodeFactory Solutions.
+Projeto desenvolvido para demonstrar  aplicação de práticas DevOps na empresa fictícia CodeFactory Solutions. Durante o desenvolvimento do projeto ele passou por uma mudança de tecnologia, saindo do Python para uma aplicação Web ultilizando JavaScript, HTML e CSS.
 
  OBJETIVO
 
@@ -10,35 +10,32 @@ Demonstrar práticas de versionamento, colaboração, documentação, containeri
 
  TECNOLOGIAS ULTILIZADAS
 
-- Python
+- HTML
+- CSS
+- JavaScript
 - Git
 - GitHub
-- Pytest
 - Docker
-- GitHub Actions
+- Jenkins
 
  ESTRUTURA DO PROJETO
 
 CodeFactory-DevOps/
-├── src/
-│   └── app.py
-├── tests/
-│   └── test_app.py
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
+├── index.html
+├── Dockerfile
+├── Jenkinsfile
+├── .dockerignore
 ├── .gitignore
-├── README.md
-└── requirements.txt
+└── README.md
 
- INSTALAÇÃO
+ EXECUÇÃO DO PROJETO
 
-Instale as dependências:
-
-pip install -r requirements.txt
-
- Execução dos testes
-
-Execute:
-
-python -m pytest
+Para executar o projeto, abra o arquivo: 'index.html' em um navegador de sua preferência. Caso tenha colando o repositório no seu VS code  ultiize a extensão Live Server. 
 
  Equipe
 
