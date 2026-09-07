@@ -1,0 +1,26 @@
+{
+  "name": "codefactory-devops",
+  "version": "1.0.0",
+  "description": "CodeFactory DevOps",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yan-serra/CodeFactory-DevOps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yan-serra/CodeFactory-DevOps/issues"
+  },
+  "homepage": "https://github.com/Yan-serra/CodeFactory-DevOps#readme",
+  "devDependencies": {
+    "vitest": "^5.0.0"
+  }
+}
