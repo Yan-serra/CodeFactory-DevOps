@@ -9,7 +9,7 @@ pipeline {
             steps {
                 echo 'Obtendo o código-fonte da branch Desenvolvimento...'
                 // Baixa o repositório informando a URL diretamente
-                git branch: 'Desenvolvimento', url: 'https://github.com/Yan-serra/CodeFactory-DevOps.git'
+                git branch: 'feature/ci-jenkins', url: 'https://github.com/Yan-serra/CodeFactory-DevOps.git'
             }
         } 
         // Verificando a estrutura de arquivos do projeto, para garantir que todos os arquivos necessários estão presentes
