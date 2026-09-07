@@ -89,5 +89,9 @@ document.getElementById('searchInput').addEventListener('input', (e) => {
   renderTasks(e.target.value);
 });
 
+window.addTask = addTask;
+window.toggleTask = toggleTask;
+window.editTask = editTask;
+window.deleteTask = deleteTask;
+
 renderTasks();
-export { createTask};
