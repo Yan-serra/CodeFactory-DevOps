@@ -7,12 +7,12 @@ describe('Criação de Tarefa', () => {
           const task = createTask(
           'Estudar DevOps',
           'Estudo da cultura DevOPS.',
-          'alta'
+          'Alta'
           );
 
           expect(task.title).toBe('Estudar DevOps');
           expect(task.description).toBe('Estudo da cultura DevOPS.');
-          expect(task.priority).toBe('alta');
+          expect(task.priority).toBe('Alta');
           expect(task.status).toBe('Pendente');
           expect(task.date).toBeDefined();
      });
