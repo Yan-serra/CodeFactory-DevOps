@@ -19,7 +19,7 @@ Demonstrar práticas de versionamento, colaboração, documentação, containeri
 - Jenkins
 
  ESTRUTURA DO PROJETO
-
+```text
 CodeFactory-DevOps/
 ├── assets/
 │   ├── css/
@@ -32,6 +32,7 @@ CodeFactory-DevOps/
 ├── .dockerignore
 ├── .gitignore
 └── README.md
+```
 
  EXECUÇÃO DO PROJETO
 
