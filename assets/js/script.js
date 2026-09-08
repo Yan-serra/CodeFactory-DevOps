@@ -1,5 +1,3 @@
-import { createTask } from './task.js';
-
 let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
 function saveTasks() {
@@ -48,7 +46,13 @@ function addTask() {
     return;
   }
 
-  const newTask = createTask(title, desc, priority);
+  const newTask = {
+    title,
+    description: desc,
+    date: new Date().toLocaleString(),
+    priority,
+    status: 'Pendente'
+  };
 
   tasks.push(newTask);
   saveTasks();
@@ -90,4 +94,3 @@ document.getElementById('searchInput').addEventListener('input', (e) => {
 });
 
 renderTasks();
-export { createTask};
