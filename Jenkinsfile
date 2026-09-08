@@ -38,7 +38,7 @@ pipeline {
             steps {
                 echo 'Testando a conexão com a aplicação...'
                 
-                bat 'curl http://localhost:8080'
+                bat 'curl http://localhost:8081'
             }
         }
     }
