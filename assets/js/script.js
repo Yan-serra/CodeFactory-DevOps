@@ -1,3 +1,5 @@
+import { createTask } from './task.js';
+
 let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
 function saveTasks() {
@@ -46,13 +48,7 @@ function addTask() {
     return;
   }
 
-  const newTask = {
-    title,
-    description: desc,
-    date: new Date().toLocaleString(),
-    priority,
-    status: 'Pendente'
-  };
+  const newTask = createTask(title, desc, priority);
 
   tasks.push(newTask);
   saveTasks();
@@ -92,5 +88,10 @@ function editTask(index) {
 document.getElementById('searchInput').addEventListener('input', (e) => {
   renderTasks(e.target.value);
 });
+
+window.addTask = addTask;
+window.toggleTask = toggleTask;
+window.editTask = editTask;
+window.deleteTask = deleteTask;
 
 renderTasks();
