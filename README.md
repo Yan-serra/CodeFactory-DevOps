@@ -1,14 +1,45 @@
  CodeFactory DevOps
 
-Projeto desenvolvido para a atividade prática da disciplina de DevOps e Integração Contínua.
+ DESCRIÇÃO
 
- Objetivo
+Projeto desenvolvido para demonstrar  aplicação de práticas DevOps na empresa fictícia CodeFactory Solutions. Durante o desenvolvimento do projeto ele passou por uma mudança de tecnologia, saindo do Python para uma aplicação Web ultilizando JavaScript, HTML e CSS.
 
-Demonstrar práticas de versionamento, colaboração, containerização e Integração Contínua.
+ OBJETIVO
 
- Tecnologias
+Demonstrar práticas de versionamento, colaboração, documentação, containerização e Integração Contínua.
 
-- Python
+ TECNOLOGIAS ULTILIZADAS
+
+- HTML
+- CSS
+- JavaScript
 - Git
 - GitHub
-- Pytest
+- Docker
+- Jenkins
+
+ ESTRUTURA ACADÊMICA DO PROJETO
+
+CodeFactory-DevOps/
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
+├── index.html
+├── Dockerfile
+├── Jenkinsfile
+├── .dockerignore
+├── .gitignore
+└── README.md
+
+ EXECUÇÃO DO PROJETO
+
+Para executar o projeto, abra o arquivo: 'index.html' em um navegador de sua preferência. Caso tenha colando o repositório no seu VS code  ultiize a extensão Live Server. 
+
+ Equipe
+
+- Yan Kevin dos Santos Serra
+- Marcio Allyson Rios de Souza
+- Diego Gin
+- Eduarda Lucena Nunes
