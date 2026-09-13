@@ -18,7 +18,7 @@ Demonstrar práticas de versionamento, colaboração, documentação, containeri
 - Docker
 - Jenkins
 
- ESTRUTURA DO PROJETO
+ ESTRUTURA ACADÊMICA DO PROJETO
 
 CodeFactory-DevOps/
 ├── assets/
