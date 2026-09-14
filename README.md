@@ -2,11 +2,11 @@
 
  ## DESCRIÇÃO
 
-Projeto desenvolvido para demonstrar  aplicação de práticas DevOps na empresa fictícia CodeFactory Solutions. Durante o desenvolvimento do projeto ele passou por uma mudança de tecnologia, saindo do Python para uma aplicação Web ultilizando JavaScript, HTML e CSS.
+ Objetivo
 
  ## OBJETIVO
 
-Demonstrar práticas de versionamento, colaboração, documentação, containerização e Integração Contínua.
+ Tecnologias
 
  ## TECNOLOGIAS ULTILIZADAS
 
